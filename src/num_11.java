@@ -39,7 +39,15 @@ public class num_11 extends JFrame {
                         mouse.setSize(0,0);
                         count++;
                         if(count == 10){
-                            restart(c);
+                            int response = JOptionPane.showConfirmDialog(
+                                    null,
+                                    "계속하겠습니까?",
+                                    "질문",
+                                    JOptionPane.YES_NO_OPTION,
+                                    JOptionPane.WARNING_MESSAGE);
+                            if (response == JOptionPane.YES_OPTION )
+                                restart(c);
+                            else System.exit(0);
                         }
                     }
                 }
@@ -48,10 +56,6 @@ public class num_11 extends JFrame {
         setTitle("Ten 레이블 클릭");
         setSize(400,400);
         setVisible(true);
-    }
-
-    public interface MouseListener extends EventListener{
-
     }
 
     public static void main(String args[]){

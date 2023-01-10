@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a08b550d-0b5a-4d5c-9cdc-7291d9fc6b5e" name="변경" comment="1일차">
-      <change afterPath="$PROJECT_DIR$/src/num_10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/num_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/num_9.java" afterDir="false" />
+    <list default="true" id="a08b550d-0b5a-4d5c-9cdc-7291d9fc6b5e" name="변경" comment="2일차">
+      <change afterPath="$PROJECT_DIR$/src/num_16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/num_20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/num_21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ㅜㅕㅡ_20.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/num_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/num_11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,18 +43,13 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="num_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="num_11" />
+    <configuration name="num_16" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="num_16" />
       <module name="Camp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="애플리케이션.num_11" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673249771755</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2일차">
+      <created>1673328878041</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673328878041</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +90,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1일차" />
-    <option name="LAST_COMMIT_MESSAGE" value="1일차" />
+    <MESSAGE value="2일차" />
+    <option name="LAST_COMMIT_MESSAGE" value="2일차" />
   </component>
 </project>
