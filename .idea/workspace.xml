@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a08b550d-0b5a-4d5c-9cdc-7291d9fc6b5e" name="변경" comment="2일차">
-      <change afterPath="$PROJECT_DIR$/src/num_22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/num_23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/num_24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/num_25.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/num_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/num_16.java" afterDir="false" />
+    <list default="true" id="a08b550d-0b5a-4d5c-9cdc-7291d9fc6b5e" name="변경" comment="3일차">
+      <change beforePath="$PROJECT_DIR$/src/num_25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/num_25.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673339647606</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3일차">
+      <created>1673404879358</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673404879358</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +99,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1일차" />
     <MESSAGE value="2일차" />
-    <option name="LAST_COMMIT_MESSAGE" value="2일차" />
+    <MESSAGE value="3일차" />
+    <option name="LAST_COMMIT_MESSAGE" value="3일차" />
   </component>
 </project>

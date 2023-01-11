@@ -38,7 +38,7 @@ public class num_25 {
                     n++;
                     out.println(search_name + "의 번호는 " + phonebook[i].getTel() + " 입니다.");
                 } else if (search_name.equals("exit")) {
-                    break;
+                    return;
                 }
             }
             if ( n == 0) out.println(search_name + " 이 없습니다.");
