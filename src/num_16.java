@@ -4,6 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class num_16 extends JFrame {
+    Container c = getContentPane();
     int first, last, answer;
     JLabel lbl1 = new JLabel("첫 번째 값: ");
     JLabel lbl2 = new JLabel("두 번째 값: ");
@@ -13,7 +14,7 @@ public class num_16 extends JFrame {
     JButton btn1 = new JButton("계산");
 
     public num_16(){
-        Container c = getContentPane();
+
         c.setLayout(null);
 
         lbl1.setBounds(30,20,100,20);
@@ -31,18 +32,18 @@ public class num_16 extends JFrame {
         txt3.setText("정답");
         c.add(txt3);
 
+        thread1 calculate = new thread1(first,last);
+
         btn1.setBounds(170,40,60,20);
         btn1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 first = Integer.parseInt(txt1.getText());
                 last = Integer.parseInt(txt2.getText());
+                calculate.start();
             }
         });
         c.add(btn1);
-
-        thread1 calculate = new thread1(first,last);
-        calculate.start();
 
         setTitle("계산 스레드");
         setSize(400,200);
@@ -58,6 +59,9 @@ public class num_16 extends JFrame {
         public void run() {
             try{
                 answer = a + b;
+                txt3.setText((Integer.toString(answer)));
+                c.add(txt3);
+                System.out.println("계산완료");
             }catch (Exception e){
                 e.printStackTrace();;
             }
